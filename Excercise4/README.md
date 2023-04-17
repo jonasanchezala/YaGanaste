@@ -2,7 +2,7 @@
 Se utilizo spring boot para crear los servicios rest.
 
 ### Request
-``` 
+``` bash
 curl --location 'http://localhost:8080/users' \
 --header 'Content-Type: application/json'
 ```
