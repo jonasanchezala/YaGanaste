@@ -1,0 +1,15 @@
+# fly.toml file generated for young-waterfall-5981 on 2023-04-16T23:40:43-05:00
+
+app = "young-waterfall-5981"
+primary_region = "bog"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+
+[checks]
+  [checks.alive]
+    type = "tcp"
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "5s"
